@@ -19,6 +19,13 @@
   border: 1px solid transparent;
   border-radius: 0.35rem;
   cursor: pointer;
+  transition: 0.2s;
+
+}
+
+.btn:hover {
+  background: #eee;
+  color: #222;
 }
 
 .primary-btn {
@@ -79,3 +86,15 @@
   background-color: #383838;
   color: #fff;
 }
+
+.taskList-list--completed {
+  list-style: none;
+  background-color: #525252;
+  border-radius: 8px;
+  color: #ffff;
+  width: 100%;
+  padding: 0.875rem;
+  font-size: 1rem;
+  margin: 1rem 1rem;
+}
+

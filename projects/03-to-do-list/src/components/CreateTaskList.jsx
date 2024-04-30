@@ -7,7 +7,10 @@ export const CreateTaskList = ({ createTask }) => {
 
     const handleSubmit = (event) => {
         event.preventDefault();
+
+        if(!task.trim()) return;
         createTask(task);
+        setTask("");
     }
 
   return (
